@@ -10,7 +10,7 @@ const students = [
     {
       ID: 1,
       name: 'Anuj',
-      cgpa: 'A',
+      grade: 'A',
       age: 22,
       degree: 'BSC',
       email: 'anuj@example.com'
@@ -19,7 +19,7 @@ const students = [
       ID: 2,
       name: 'Harry',
       age: 23,
-      cgpa: 'B',
+      grade: 'B',
       degree: 'Btech',
       email: 'harry@example.com'
     },
@@ -27,7 +27,7 @@ const students = [
       ID: 3,
       name: 'Rick',
       age: 24,
-      cgpa: 'A',
+      grade: 'A',
       degree: 'MCA',
       email: 'rick@example.com'
     }
@@ -49,7 +49,7 @@ const students = [
         <td>${student.name}</td>
         <td>${student.email}</td>
         <td>${student.age}</td>
-        <td>${student.cgpa}</td>
+        <td>${student.grade}</td>
         <td>${student.degree}</td>
         <td><button class="edit-button">Edit</button></td>
         <td><button class="delete-button">Delete</button></td>
@@ -68,7 +68,7 @@ const students = [
       ID: students.length + 1,
       name: form.name.value,
       age: form.age.value,
-      cgpa: form.cgpa.value,
+      grade: form.grade.value,
       degree: form.degree.value,
       email: form.email.value
     };
@@ -83,7 +83,7 @@ const students = [
     form.name.value = student.name;
     form.email.value = student.email;
     form.age.value = student.age;
-    form.cgpa.value = student.cgpa;
+    form.grade.value = student.grade;
     form.degree.value = student.degree;
   
     form.querySelector('button[type="submit"]').textContent = 'Edit Student';
@@ -97,7 +97,7 @@ const students = [
   
     student.name = form.name.value;
     student.age = form.age.value;
-    student.cgpa = form.cgpa.value;
+    student.grade = form.grade.value;
     student.degree = form.degree.value;
     student.email = form.email.value;
   
