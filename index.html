@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Management CRUD</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management CRUD</h1>
+
+        <!-- Student Form -->
+        <form id="student-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <input type="text" id="cgpa" placeholder="CGPA" required>
+            <input type="text" id="degree" placeholder="Degree" required>
+            <button type="submit">Add Student</button>
+        </form>
+        
+        <!-- Search Box -->
+        <input type="text" id="search-input" placeholder="Search by Name, Email, or Degree">
+        
+        <!-- Student Table -->
+
+        
+        <table id="student-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Student Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>CGPA</th>
+                    <th>Degree</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student data will be inserted  -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>  
+</body>
+</html>

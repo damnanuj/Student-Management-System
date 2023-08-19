@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1E1E1E;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: start;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#student-form {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#student-form input {
+    color: white;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 10px 65px;
+    margin: 5px;
+    
+}
+#student-form button{
+    margin-top: 15px;
+    padding: 10px 200px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#search-input {
+    color: white;
+    width: 900px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+
+
+#student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#student-table th, #student-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+#search-input::placeholder, #student-form input::placeholder {
+    color: #999;
+}
+
+
+
+
+
+
+
